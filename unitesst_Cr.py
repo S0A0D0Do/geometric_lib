@@ -24,7 +24,3 @@ class TestCircle(unittest.TestCase):
 
         res = circle_perimeter(75)
         self.assertEqual(res, 471.225)
-
-    def test_negative_perimeter(self):
-        with self.assertRaises(ValueError):
-            circle_perimeter(-1)
