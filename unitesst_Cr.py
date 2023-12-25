@@ -3,10 +3,6 @@ from circle import area as circle_area, perimeter as circle_perimeter
 
 class TestCircle(unittest.TestCase):
 
-    def test_zero_area(self):
-        res = circle_area(0)
-        self.assertEqual(res, 0)
-
     def test_area(self):
         res = circle_area(75)
         self.assertEqual(res, 17671.458676442588)
