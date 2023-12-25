@@ -25,5 +25,5 @@ class TestSquare(unittest.TestCase):
 	def test_big_perimeter(self):
 		self.assertEqual(rectangle_perimeter(123,890), 2026)
 
-	def test_normal_area(self):
+	def test_normal_perimeter(self):
 		self.assertEqual(rectangle_perimeter(3,25), 40)
