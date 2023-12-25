@@ -15,7 +15,7 @@ class TestSquare(unittest.TestCase):
 		with self.assertRaises(ValueError):
 			rectangle_area(-1)
 
-	def test_normal__perimeter(self):
+	def test_normal_area(self):
 		self.assertEqual(srectangle_area(2,5), 10)
 
 	" Рассмоттрим периметр при этих же условиях"
