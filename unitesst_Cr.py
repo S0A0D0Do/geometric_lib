@@ -9,7 +9,7 @@ class TestCircle(unittest.TestCase):
 
     def test_area(self):
         res = circle_area(75)
-        self.assertEqual(res, 17640.9375)
+        self.assertEqual(res, 17671.458676442588)
 
     def test_zero_area(self):
         res = circle_area(0)
@@ -23,4 +23,4 @@ class TestCircle(unittest.TestCase):
     def test_perimeter(self):
 
         res = circle_perimeter(75)
-        self.assertEqual(res, 471.225)
+        self.assertEqual(res, 471.23889803846896)
