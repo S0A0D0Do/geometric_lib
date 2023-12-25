@@ -3,7 +3,7 @@ from rectangle import area as rectangle_area, perimeter as rectangle_perimeter
 
 class TestSquare(unittest.TestCase):
 	def test_zero_area(self):
-		self.assertEqual(rectangle_area(0), 0)
+		self.assertEqual(rectangle_area(0,4), 0)
 
 	def test_small_area(self):
 		self.assertEqual(rectangle_area(0.345,0.45), 0.15525)
@@ -17,7 +17,7 @@ class TestSquare(unittest.TestCase):
 	" Рассмоттрим периметр при этих же условиях"
 
 	def test_zero_perimeter(self):
-		self.assertEqual(rectangle_perimeter(0), 0)
+		self.assertEqual(rectangle_perimeter(0,4), 0)
 
 	def test_small_perimeter(self):
 		self.assertEqual(rectangle_perimeter(0.345,0.45),1.59)
