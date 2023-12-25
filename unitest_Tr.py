@@ -12,7 +12,7 @@ class TestSquare(unittest.TestCase):
 		self.assertEqual(square_area(543), 294849)
 
 	def test_normal_area(self):
-		self.assertEqual(square__perimeter(10), 100)
+		self.assertEqual(square_perimeter(10), 100)
 
 	" Рассмоттрим периметр при этих же условиях"
 
