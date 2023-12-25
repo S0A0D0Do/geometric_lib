@@ -34,4 +34,4 @@ class TestSquare(unittest.TestCase):
 			square_perimeter(-1)
 
 	def test_normal_perimeter(self):
-		self.assertEqual(square_area(10), 40)
+		self.assertEqual(square_perimeter(10), 40)
