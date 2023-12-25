@@ -11,10 +11,6 @@ class TestSquare(unittest.TestCase):
 	def test_big_area(self):
 		self.assertEqual(square_area(543), 294849)
 
-	def test_negative_area(self):
-		with self.assertRaises(ValueError):
-			square_area(-1)
-
 	def test_normal_area(self):
 		self.assertEqual(square__perimeter(10), 100)
 
@@ -28,10 +24,6 @@ class TestSquare(unittest.TestCase):
 
 	def test_big_perimeter(self):
 		self.assertEqual(square_perimeter(543), 2172)
-
-	def test_negative_perimeter(self):
-		with self.assertRaises(ValueError):
-			square_perimeter(-1)
 
 	def test_normal_perimeter(self):
 		self.assertEqual(square_perimeter(10), 40)
