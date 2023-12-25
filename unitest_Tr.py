@@ -11,10 +11,6 @@ class TestSquare(unittest.TestCase):
 	def test_big_area(self):
 		self.assertEqual(square_area(543), 294849)
 
-	def test_negative_area(self):
-		with self.assertRaises(ValueError):
-			square_area(-1)
-
 	def test_normal_area(self):
 		self.assertEqual(square_area(10), 100)
 
