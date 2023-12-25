@@ -17,7 +17,7 @@ class TestSquare(unittest.TestCase):
 	" Рассмоттрим периметр при этих же условиях"
 
 	def test_zero_perimeter(self):
-		self.assertEqual(rectangle_perimeter(0,4), 0)
+		self.assertEqual(rectangle_perimeter(0,4), 8)
 
 	def test_small_perimeter(self):
 		self.assertEqual(rectangle_perimeter(0.345,0.45),1.5899999999999999)
