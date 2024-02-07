@@ -1,7 +1,7 @@
 import unittest
 from rectangle import area as rectangle_area, perimeter as rectangle_perimeter
 
-class TestSquare(unittest.TestCase):
+class TestRrectangle(unittest.TestCase):
 	def test_zero_area(self):
 		self.assertEqual(rectangle_area(0,4), 0)
 
