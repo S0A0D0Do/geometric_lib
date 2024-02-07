@@ -9,7 +9,7 @@ class TestRrectangle(unittest.TestCase):
 		self.assertEqual(rectangle_area(0.345,0.45), 0.15525)
 
 	def test_big_area(self):
-		self.assertEqual(rectangle_area(123,890), 109470)
+		self.assertEqual(rectangle_area(123,890), 1009470)
 
 	def test_normal_area(self):
 		self.assertEqual(rectangle_area(2,5), 10)
