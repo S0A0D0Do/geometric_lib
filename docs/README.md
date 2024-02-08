@@ -18,3 +18,4 @@
 | 75| 17671.458676442588 |def test_area(self):  <br/>
         res = circle_area(75)  <br/>
         self.assertEqual(res, 17671.458676442588)|
+| | | |
